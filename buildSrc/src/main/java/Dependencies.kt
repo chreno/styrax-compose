@@ -27,14 +27,14 @@ object Libs {
     const val gradleVersionsGradlePlugin = "com.github.ben-manes.versions"
 }
 
-const val composeVersion = "1.1.0-beta04"
-const val gradleVersionsVersion = "0.39.0"
-const val kotlinVersion = "1.6.0"
+const val composeVersion = "1.2.0-alpha02"
+const val gradleVersionsVersion = "0.41.0"
+const val kotlinVersion = "1.6.10"
 
-private const val androidJUnit5Version = "1.8.0.0"
-private const val appcompatVersion = "1.4.0"
-private const val activityVersion = "1.4.0"
-private const val buildToolsVersion = "7.1.0-beta04"
+private const val androidJUnit5Version = "1.8.2.0"
+private const val appcompatVersion = "1.4.1"
+private const val activityVersion = "1.5.0-alpha01"
+private const val buildToolsVersion = "7.2.0-beta01"
 private const val coreVersion = "1.7.0"
-private const val materialVersion = "1.5.0-beta01"
+private const val materialVersion = "1.5.0"
 private const val spekVersion = "2.0.17"
