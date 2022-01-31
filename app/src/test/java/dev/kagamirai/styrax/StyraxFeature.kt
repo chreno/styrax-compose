@@ -11,7 +11,7 @@ object StyraxFeature : Spek({
                 1 + 1
             }
             Then("It succeeds") {
-                assertEquals(1, 1)
+                assertEquals(1, 2)
             }
         }
     }
