@@ -22,10 +22,10 @@ android {
 
     signingConfigs {
         create("release") {
-            keyAlias = System.getenv("KEYSTORE_KEY_ALIAS")
-            keyPassword = System.getenv("KEYSTORE_KEY_PASSWORD")
-            storeFile = File(System.getenv("KEYSTORE_PATH"))
-            storePassword = System.getenv("KEYSTORE_PASSWORD")
+            keyAlias = System.getenv("BITRISEIO_ANDROID_KEYSTORE_ALIAS")
+            keyPassword = System.getenv("BITRISEIO_ANDROID_KEYSTORE_PRIVATE_KEY_PASSWORD")
+            storeFile = File(System.getenv("BITRISEIO_KEYSTORE_PATH_URL"))
+            storePassword = System.getenv("BITRISEIO_ANDROID_KEYSTORE_PASSWORD")
         }
     }
 
